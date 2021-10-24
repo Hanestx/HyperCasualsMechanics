@@ -1,5 +1,5 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
+
 
 namespace SnakeVsBlock
 {
@@ -7,11 +7,13 @@ namespace SnakeVsBlock
     {
         private Camera _camera;
 
+        
         private void Start()
         {
             _camera = Camera.main;
         }
 
+        
         public Vector2 GetDirectionToCLick(Vector2 headPosition)
         {
             Vector3 mousePosition = Input.mousePosition;
@@ -20,7 +22,6 @@ namespace SnakeVsBlock
             mousePosition = _camera.ViewportToWorldPoint(mousePosition);
             
             Vector2 direction = new Vector2(mousePosition.x - headPosition.x, mousePosition.y - headPosition.y);
-
             return direction;
         }
     }
