@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\hanes\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\hanes\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_FireBalls.633818782.00" t="ExcludeRecursive" />
+    <e p="E:\MyProjects\Unity\FireBalls" t="IncludeRecursive">
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Code" t="Include">
+          <e p="Block.cs" t="Include" />
+          <e p="Bullet.cs" t="Include" />
+          <e p="Tank.cs" t="Include" />
+          <e p="Tower" t="Include">
+            <e p="Tower.cs" t="Include" />
+            <e p="TowerBuilder.cs" t="Include" />
+          </e>
+        </e>
+        <e p="MobileDepthWater" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="AnimationStarter.cs" t="Include" />
+            <e p="CameraDepthSlider.cs" t="Include" />
+            <e p="CameraRotator.cs" t="Include" />
+            <e p="FPSCounter.cs" t="Include" />
+            <e p="FPSUI.cs" t="Include" />
+            <e p="TouchRotator.cs" t="Include" />
+            <e p="Water" t="Include">
+              <e p="WaterArea.cs" t="Include" />
+              <e p="WaterMaterialSwitcher.cs" t="Include" />
+              <e p="WaterPropertyBlockSetter.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="WaterOpaque" t="Include">
+              <e p="Depth" t="Include">
+                <e p="DiffuseColorDepthWater.shader" t="Include" />
+                <e p="DiffuseDepthWater.shader" t="Include" />
+              </e>
+              <e p="DiffuseWaterOpaque.shader" t="Include" />
+              <e p="Height" t="Include">
+                <e p="DiffuseColorHeightWater.shader" t="Include" />
+                <e p="DiffuseHeightWater.shader" t="Include" />
+              </e>
+            </e>
+            <e p="WaterTwoSide" t="Include">
+              <e p="Depth" t="Include">
+                <e p="DiffuseColorDepthWaterTwoSide.shader" t="Include" />
+                <e p="DiffuseDepthWaterTwoSide.shader" t="Include" />
+              </e>
+              <e p="Height" t="Include">
+                <e p="DiffuseColorHeightWaterTwoSide.shader" t="Include" />
+                <e p="DiffuseHeightWaterTwoSide.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="readme.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="FireBalls.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
